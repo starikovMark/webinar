@@ -165,7 +165,6 @@ img {
 }
 
 .group {
-  background: #E5E5E5;
   padding-top: 170px;
   padding-bottom: 122px;
 }
@@ -312,4 +311,36 @@ img {
   position: absolute;
   right: 20px;
   z-index: 15;
+}
+
+.footer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 69px;
+  padding-bottom: 59px;
+}
+.footer__logo {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #5540BF;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.footer__contacts {
+  text-align: right;
+}
+.footer__image {
+  margin-left: 18px;
+}
+.footer__information {
+  margin-top: 26px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #5540BF;
 }
