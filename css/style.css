@@ -334,6 +334,7 @@ img {
   text-align: right;
 }
 .footer__image {
+  cursor: pointer;
   margin-left: 18px;
 }
 .footer__information {
@@ -343,4 +344,16 @@ img {
   font-size: 16px;
   line-height: 22px;
   color: #5540BF;
+}
+.footer__support {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #5540BF;
+  text-decoration: none;
+  cursor: pointer;
+}
+.footer__support:hover {
+  color: tomato;
 }
